@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ViewSectionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient_list"
+        android:layout_marginTop="?actionBarSize">
+    <!--CardView1-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewMental"
+        android:layout_marginBottom="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardCornerRadius="15dp"
+        android:elevation="10dp"
+        >
+
+        <!--LinearLayout contain TextView and ImageView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--TextView for Section name-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mental"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="9pt"/>
+
+
+            <!--ImageView for Section image-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/mental"/>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--CardView2-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewBody"
+        android:layout_marginBottom="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardCornerRadius="15dp"
+        android:elevation="10dp"
+        >
+
+        <!--LinearLayout contain TextView and ImageView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--TextView for Section name-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/body"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="9pt"/>
+
+
+            <!--ImageView for Section image-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/body"/>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--CardView2-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewNutrition"
+        android:layout_marginBottom="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardCornerRadius="15dp"
+        android:elevation="10dp"
+        >
+
+        <!--LinearLayout contain TextView and ImageView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--TextView for Section name-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nutrition"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="9pt"/>
+
+
+            <!--ImageView for Section image-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/nutrition"/>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
+</LinearLayout>

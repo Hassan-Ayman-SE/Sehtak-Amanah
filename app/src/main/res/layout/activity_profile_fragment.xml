@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/gradient_list"
+        android:layout_marginTop="?actionBarSize">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prof"
+            android:layout_gravity="center"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/white"
+            />
+
+    <!--Username text field-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputUsernameP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/username"
+        app:startIconDrawable="@drawable/ic_person"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/red"
+        android:textColorHint="@color/yellow"
+        app:hintTextColor="@color/yellow2"
+        app:boxStrokeColor="@color/yellow"
+        app:counterTextColor="@color/yellow"
+        app:startIconTint="@color/yellow"
+        app:counterMaxLength="30">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="31"
+            android:textColor="@color/yellow">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--email text field-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutEmailP"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/red"
+        android:textColorHint="@color/yellow"
+        app:hintTextColor="@color/yellow2"
+        app:startIconTint="@color/yellow"
+        app:boxStrokeColor="@color/yellow"
+        app:startIconDrawable="@drawable/ic_email"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:inputType="text">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPasswordP"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/password"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        android:textColorHint="@color/yellow"
+        app:hintTextColor="@color/yellow2"
+        app:boxStrokeColor="@color/yellow"
+        app:startIconTint="@color/yellow"
+        app:endIconTint="@color/yellow"
+        app:counterTextColor="@color/yellow"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:inputType="textPassword"
+            android:maxLength="9">
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Phone text field-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPhoneP"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        app:startIconDrawable="@drawable/ic_phone"
+        app:counterEnabled="true"
+        app:counterMaxLength="9"
+        app:prefixText="+962"
+        app:prefixTextColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        app:hintTextColor="@color/yellow2"
+        app:boxStrokeColor="@color/yellow"
+        app:counterTextColor="@color/yellow"
+        app:startIconTint="@color/yellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:inputType="phone"
+            android:maxLength="10">
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--update button-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_update"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/yellow2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+</LinearLayout>

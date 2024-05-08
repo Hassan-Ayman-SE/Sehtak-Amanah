@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Sehtak Amanah</string>
+    <string name="login_page">Login Screen</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="newAccount">Don\'t have an account? Create an account!</string>
+    <string name="section_name">Section Name</string>
+    <string name="empty">This field should not be Empty!!</string>
+    <string name="eightCharacter">Password field must be 8 character!!</string>
+    <string name="invalidEmail">Invalid Email Address</string>
+    <string name="username">Username</string>
+    <string name="signup_page">SignUp Screen</string>
+    <string name="phone">Phone Number</string>
+    <string name="re_password">Re-Password</string>
+    <string name="btn_signUp">SignUp</string>
+    <string name="btn_back">Back</string>
+    <string name="character30">Username field should not be greater than 30 character</string>
+    <string name="invalidPhone">Invalid Phone number(must be begin 77 or 78 or 79 )</string>
+    <string name="number9">Phone field should  be 9 numbers!!</string>
+    <string name="notMatch">Password does not match</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_drawer_header">Navigation drawer header</string>
+    <string name="user_info">Your Information</string>
+    <string name="tPhone">Phone: 0787791335</string>
+    <string name="tEmail">omarA@gmail.com</string>
+    <string name="tName">Omar Ahmad</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="about">About Us</string>
+    <string name="contact">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="btn_update">Update</string>
+    <string name="deleteAcc">Delete Account</string>
+    <string name="aboutInfo">This application offers you three main sections:\n\n
+1- The Mental health section:     to take care of your mental health.\n\n
+2- The physical health section:     to take care of your physical health.\n\n
+3- The Nutrition System section:     provides a detailed report on the diet.\n\n
+There is also a test section to give you a report if you have depression or not.</string>
+    <string name="contactInfo">Prog.:\n\n\nEmail:\n\n\nPhone:\n\n\nFaceBook:\n\n\nYouTube:</string>
+    <string name="contactInfo2">Omar Ahmad\n\n\nOmar@gmail.com\n\n\n0787777777\n\n\n--------------------\n\n\n--------------------</string>
+    <string name="mental">Mental Health</string>
+    <string name="body">Physical Health</string>
+    <string name="nutrition">Nutrition System</string>
+    <string name="more_details">More Details</string>
+    <string name="effects">Effects:</string>
+    <string name="Causes">Causes:</string>
+    <string name="treatment">Treatments:</string>
+    <string name="Info">Information:</string>
+    <string name="diseases_afflicted">Diseases Afflicted:</string>
+    <string name="avoid">Avoid Diseases Methods:</string>
+
+    <string-array name="mentalNames">
+        <item>Depression</item>
+        <item>Schizophrenia</item>
+        <item>Social phobia</item>
+        <item>Bipolar</item>
+        <item>Obsessive compulsive</item>
+        <item>Insomnia</item>
+    </string-array>
+
+    <string-array name="effects">
+        <item>- Feeling sad or low.\n- Being unable to enjoy things that normally bring you pleasure.\n- Low self-esteem and self-confidence.</item>
+        <item>- Reduced or lack of ability to function normally.\n- Seeing or hearing things that don\'t exist.\n- Lack the ability to experience pleasure.</item>
+        <item>- Worry about everyday activities, such as meeting strangers.\n- Find it difficult to do things when others are watching.\n- Fear being criticised, avoid eye contact or have low self-esteem.</item>
+        <item>- Unusually intense emotion.\n- Changes in sleep patterns and activity levels.\n- Uncharacteristic behaviors—often without recognizing their likely harmful or undesirable effects.</item>
+        <item>- Unwanted and unpleasant thought, image or urge that repeatedly enters your mind.\n- Repetitive behaviour or mental act that you feel you need to do.\n- Feelings of anxiety, disgust or unease.</item>
+        <item>- Difficulty falling asleep at night.\n- Waking up during the night.\n- Not feeling well-rested after a night\'s sleep.\n- Irritability, depression or anxiety.\n- Ongoing worries about sleep.</item>
+    </string-array>
+
+    <string-array name="causesM">
+        <item>- Lack of support.\n- Difficult childhood experiences.\n- Stressful living conditions.</item>
+        <item>- Having a family history of schizophrenia.\n- Taking mind-altering drugs during teen years and young adulthood.\n- Exposure to toxins or viruses that may impact brain development.</item>
+        <item>- Family conflicts, domestic violence, and divorce.\n- Death of or desertion by a parent.\n- Maternal stress during pregnancy or infancy.</item>
+        <item>- Brain Structure and Functioning.\n- Genetics.</item>
+        <item>- Genetics.\n- A result of changes in your body\'s own natural chemistry.</item>
+        <item>- Stress.\n- Travel or work schedule.\n- Poor sleep habits.\n- Eating too much late in the evening.</item>
+    </string-array>
+
+    <string-array name="treatments">
+        <item>- Speak to people with similar experiences.\n- Be kind to yourself.\n- Be kind to yourself.</item>
+        <item>- Occupational therapists.\n- Social workers.\n- Pharmacists. </item>
+        <item>- Cognitive behavioural therapy (CBT).\n- Guided self-help. </item>
+        <item>- Medications.\n- Electroconvulsive therapy (ECT).\n-Transcranial magnetic stimulation (TMS).</item>
+        <item>- Psychological therapy.\n- Medicine.\n- Selective serotonin reuptake inhibitors (SSRIs). </item>
+        <item>- Avoid or limit naps.\n- Check your medications to see if they may contribute to insomnia.\n- Avoid large meals and beverages before bedtime. </item>
+    </string-array>
+
+
+    <string-array name="bodyNames">
+        <item>Heart</item>
+        <item>Kidney</item>
+        <item>Liver</item>
+        <item>Pancreas</item>
+    </string-array>
+
+    <string-array name="info">
+        <item>- A fist-sized organ that pumps blood throughout your body.\n- The primary organ of your circulatory system.\n- Controls the rhythm and speed of your heart rate.\n- Maintains your blood pressure.</item>
+        <item>- kidneys remove wastes and extra fluid from your body.\n- kidneys remove acid that is produced by the cells of your body.\n- Maintain a healthy balance of water, salts, and minerals in your blood.</item>
+        <item>- Located in the upper right-hand portion of the abdominal cavity.\n- Shaped like a cone.\n- Dark reddish-brown organ.\n- Weighs about 3 pounds.</item>
+        <item>- An organ located in the abdomen.\n- Plays an essential role in converting the food we eat into fuel for the body\'s cells.\n- Helps in digestion.\n- Regulates blood sugar.</item>
+    </string-array>
+
+    <string-array name="diseasesAfflicted">
+        <item>- Heart attack (myocardial infarction).\n- Congestive heart failure.\n- Arrhythmia.</item>
+        <item>- kidney failure.\n- Glomerulonephritis.\n- Lupus Nephritis.</item>
+        <item>- Hepatitis A.\n- Fatty liver disease.\n- Liver cancer.</item>
+        <item>- Diabetes.\n- Gallstone Pancreatitis.\n- Cholecystitis.</item>
+    </string-array>
+
+    <string-array name="causesB">
+        <item>- A part of the heart muscle doesn\'t get enough blood.\n- Coronary artery disease (CAD).\n- Beat too slowly, too quickly, or irregularly.</item>
+        <item>- High blood pressure.\n- Diabetes.\n- Physical injury.</item>
+        <item>- Viruses.\n- Drugs.\n- Inherited diseases.</item>
+        <item>- Gallstones.\n- Certain medications.\n- Cystic fibrosis.</item>
+    </string-array>
+
+
+    <string-array name="treatmentsB">
+        <item>- Exercise moderately for at least 150 minutes per week.\n- Limit your sodium intake.\n- Manage your stress with healthy strategies.</item>
+        <item>- Dialysis.\n- Kidney transplant.</item>
+        <item>- Dandelion.\n- Milk Thistle.\n- Liver Transplantation.</item>
+        <item>- A low-fat diet.\n- Antibiotics.\n- Vitamins.</item>
+    </string-array>
+
+    <string name="nutritionReport">- Make most of your meal vegetables and fruits – ½ of your plate.\n\n
+Aim for color and variety, and remember that potatoes don’t count as vegetables
+on the Healthy Eating Plate because of their negative impact on blood sugar.\n\n\n
+- Go for whole grains – ¼ of your plate.\n\n
+Whole and intact grains—whole wheat, barley, wheat berries, quinoa,
+oats, brown rice, and foods made with them, such as whole wheat pasta—have
+a milder effect on blood sugar and insulin than white bread, white rice,
+and other refined grains.\n\n\n
+- Protein power – ¼ of your plate.\n\n
+Fish, poultry, beans, and nuts are all healthy,
+versatile protein sources—they can be mixed into salads,
+and pair well with vegetables on a plate. Limit red meat,
+and avoid processed meats such as bacon and sausage.\n\n\n
+- Healthy plant oils – in moderation.\n\n
+Choose healthy vegetable oils like olive,
+canola, soy, corn, sunflower, peanut, and others,
+and avoid partially hydrogenated oils, which contain unhealthy trans fats.
+Remember that low-fat does not mean “healthy.”\n\n\n
+- Drink water, coffee, or tea.\n\n
+Skip sugary drinks, limit milk and dairy
+products to one to two servings per day, and limit juice
+to a small glass per day.\n\n\n
+- Stay active.\n\n
+The red figure running across the Healthy Eating Plate’s placement is a reminder
+that staying active is also important in weight control.\n\n
+
+    </string>
+    <string name="test">Test</string>
+    <string name="submit">Submit</string>
+    <string name="c1">A. Not at all</string>
+    <string name="c2">B. Several days</string>
+    <string name="c3">C. More than half the days</string>
+    <string name="c4">D. Nearly every day</string>
+
+</resources>
